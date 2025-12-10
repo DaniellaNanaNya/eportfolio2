@@ -383,20 +383,34 @@ footer {
     border-top: 2px solid var(--accent);
 }
 
-.cv img{
-    position: relative;
-    bottom:130px;
-    left:385px;
+.cv {
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+}
+
+.cv img {
     width: 580px;
     height: 725px;
     border-radius: 20px;
+    display: block;
+    margin: 0 auto;           
+    position: static;        
+
+.veille-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
 }
 
-.veille-image img{
-    position: relative;
-    bottom:290px;
-    left:120px;
+.veille-image img {
     width: 1100px;
-    height: 505px;
+    max-width: 95%;          
+    height: auto;           
     border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    position: static;         
 }
+
